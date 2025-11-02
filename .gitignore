@@ -1,0 +1,55 @@
+# =========================
+# Maven build
+# =========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
+
+# =========================
+# IDEs and editors
+# =========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.apt_generated/
+.factorypath
+.springBeans
+
+# VS Code
+.vscode/
+
+# =========================
+# OS / Misc
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+
+# =========================
+# Application configs
+# =========================
+# Do not commit sensitive configs or environment-specific files
+src/main/resources/application.properties
+target/classes/application.properties
+src/main/resources/application.yml
+src/main/resources/*.secret.*
+.env
+*.env
+docker-compose.yml
+
+# =========================
+# Testing / Reports
+# =========================
+surefire-reports/
+failsafe-reports/
+test-output/
